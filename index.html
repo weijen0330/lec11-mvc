@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <style>
+    /* all buttons are the same size */
+    button {
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+    }
+
+    /** big button text **/
+    .btn-group-lg>.btn, .btn-lg, .btn {
+      font-size: 30px;
+    }
+  </style>
+  <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+</head>
+<body class="container">
+  <h1>Tic Tac Toe</h1>
+  <div id="message"></div>
+  <div id="game-box"></div>
+  <script src="dist/bundle.js"></script> <!-- non-dev version -->
+  <script src="bundle.js"></script> <!-- dev version -->
+</body>
+</html>
